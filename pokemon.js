@@ -1,11 +1,11 @@
-//277713594:AAEzYRVkEI5ydWzP61XPQfxI2pdLqqjoEmo
+//telegram bot Api 277713594:AAEzYRVkEI5ydWzP61XPQfxI2pdLqqjoEmo
 
 var express = require('express');
 var bodyParser = require("body-parser");
 var fs = require('fs');
 
 var _ = require('underscore');
-var telegram = require('telegram-bot-api');
+var telegram = require('277713594:AAEzYRVkEI5ydWzP61XPQfxI2pdLqqjoEmo');
 var Datastore = require('nedb');
 
 var db = new Datastore({
@@ -18,7 +18,7 @@ var ignore = new Datastore({
 });
 
 var api = new telegram({
-    token: '',
+    token: 'POKTKOSCANNERBOT',
     updates: {
         enabled: true
     }
