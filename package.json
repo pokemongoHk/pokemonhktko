@@ -1,21 +1,21 @@
 {
   "name": "pokemaptelegram",
   "version": "0.0.1",
-  "description": "Pokemon Go HK TKO",
+  "description": "Pokemon Go Map Telegram Bot",
   "main": "pokemon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pokemongoHk/pokemonhktko.git"
+    "url": "git+https://github.com/danvoinea/PokeMapTelegram.git"
   },
-  "author": "Kit",
+  "author": "Dan Voinea",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pokemongoHk/pokemonhktko/issues"
+    "url": "https://github.com/danvoinea/PokeMapTelegram/issues"
   },
-  "homepage": "https://github.com/pokemongoHk/pokemonhktko#readme",
+  "homepage": "https://github.com/danvoinea/PokeMapTelegram#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
