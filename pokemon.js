@@ -3,9 +3,9 @@
 var express = require('express');
 var bodyParser = require("body-parser");
 var fs = require('fs');
-var telegram = require('277713594:AAEzYRVkEI5ydWzP61XPQfxI2pdLqqjoEmo');
-var _ = require('underscore');
 
+var _ = require('underscore');
+var telegram = require('telegram-bot-api');
 var Datastore = require('nedb');
 
 var db = new Datastore({
