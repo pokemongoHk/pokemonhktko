@@ -1,0 +1,27 @@
+{
+  "name": "pokemaptelegram",
+  "version": "0.0.1",
+  "description": "Pokemon Go HK TKO",
+  "main": "pokemon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokemongoHk/pokemonhktko.git"
+  },
+  "author": "Kit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pokemongoHk/pokemonhktko/issues"
+  },
+  "homepage": "https://github.com/pokemongoHk/pokemonhktko#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "fs": "0.0.2",
+    "nedb": "^1.8.0",
+    "telegram-bot-api": "^1.2.0",
+    "underscore": "^1.8.3"
+  }
+}
