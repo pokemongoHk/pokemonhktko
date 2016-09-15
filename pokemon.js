@@ -18,7 +18,7 @@ var ignore = new Datastore({
 });
 
 var api = new telegram({
-    token: 'POKTKOSCANNERBOT',
+    token: '@POKTKOSCANNERBOT',
     updates: {
         enabled: true
     }
