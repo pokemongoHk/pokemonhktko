@@ -167,7 +167,7 @@ app.post('/', function(req, res) {
                     if (array.indexOf(pokemon[id].name) < 0) {
 
                         api.sendMessage({
-                            chat_id: POKTKOSCANNERBOT,
+                            chat_id: data.id,
                             text: text
                         });
 
