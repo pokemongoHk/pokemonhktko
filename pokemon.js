@@ -18,7 +18,7 @@ var ignore = new Datastore({
 });
 
 var api = new telegram({
-    token: 'https://api.telegram.org/277713594:AAEzYRVkEI5ydWzP61XPQfxI2pdLqqjoEmo/getUpdates',
+    token: '277713594:AAEzYRVkEI5ydWzP61XPQfxI2pdLqqjoEmo',
     updates: {
         enabled: true
     }
