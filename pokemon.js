@@ -17,8 +17,8 @@ var ignore = new Datastore({
     autoload: true
 });
 
-var api = new telegram({
-    token: '277713594:AAEzYRVkEI5ydWzP61XPQfxI2pdLqqjoEmo',
+Avar api = new telegram({
+    token: 'https://api.telegram.org/bot277713594:AAEzYRVkEI5ydWzP61XPQfxI2pdLqqjoEmo/getUpdates',
     updates: {
         enabled: true
     }
@@ -167,7 +167,7 @@ app.post('/', function(req, res) {
                     if (array.indexOf(pokemon[id].name) < 0) {
 
                         api.sendMessage({
-                            chat_id: data.id,
+                            chat_id: POKTKOSCANNERBOT,
                             text: text
                         });
 
